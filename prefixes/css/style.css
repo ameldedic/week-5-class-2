@@ -1,0 +1,12 @@
+.box {
+    width: 500px;
+    height: 500px;
+    background-color: coral;
+    -webkit-transition: 1s background-color ease;
+    -o-transition:  1s background-color ease;
+    transition: 1s background-color ease;
+}
+
+.box:hover {
+    background-color: #444444;
+}
