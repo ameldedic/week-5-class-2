@@ -1,1 +1,9 @@
 /* -- PSEUDO ELEMENT ::after -- */
+h1::before {
+    content: "This content is added from css - BEFORE - ";
+    color: coral;
+}
+h1::after {
+    content: " - This content is added from css - AFTER";
+    color: cornflowerblue;
+}

@@ -1,1 +1,13 @@
 /* -- FLOATING ELEMENTS -- */
+.container {
+    background-color: coral;
+    color: white;
+}
+img {
+    float: left;
+    margin: 0 1rem 0.5rem 0;
+}
+
+.second-paragraph {
+    clear: left;
+}

@@ -1,1 +1,14 @@
 /* -- FLOATING ELEMENTS -- */
+.container {
+    border: 1px solid red;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: left;
+}
+
+img {
+    float: left;
+}

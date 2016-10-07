@@ -1,10 +1,27 @@
 /* -- FLOATING ELEMENTS -- */
+* {
+   box-sizing: border-box; 
+}
+
 body{
     color: white;
 }
 .container-1 {
     background-color: coral;
 }
+
+.container-1 p {
+    width: 33.33%;
+    float: left;
+    padding: 1rem;
+}
+
 .container-2 {
     background-color: cornflowerblue;
+}
+
+.clearfloats::after {
+    content: "";
+    display: block;
+    clear: left;
 }
