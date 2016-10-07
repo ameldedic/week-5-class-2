@@ -1,3 +1,4 @@
+List of prefixes:
 Android: -webkit-
 Chrome: -webkit-
 Firefox: -moz-
@@ -5,9 +6,3 @@ Internet Explorer: -ms-
 iOS: -webkit-
 Opera: -o-
 Safari: -webkit-
-
-
-.container {
-    transition: 1s all ease;
-    -webkit-transition: 1s all ease;
-}

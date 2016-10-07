@@ -1,14 +1,16 @@
 /* -- FLOATING ELEMENTS -- */
-.container {
-    border: 1px solid red;
+.box {
+    background-color: coral;
+    color: white;
+}
+
+img {
+    float: left;
+    margin: 1rem;
 }
 
 .clearfix::after {
     content: "";
     display: block;
     clear: left;
-}
-
-img {
-    float: left;
 }

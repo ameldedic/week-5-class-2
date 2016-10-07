@@ -1,12 +1,41 @@
+/* --
+CSS gets updated with new properties from time to time.
+Web browsers have a transitional faze in implementing these new
+CSS properties by using a prefix for new CSS property.
+
+Different prefixes are used for different web browsers.
+
+List of prefixes:
+Android: -webkit-
+Chrome: -webkit-
+Firefox: -moz-
+Internet Explorer: -ms-
+iOS: -webkit-
+Opera: -o-
+Safari: -webkit-
+-- */
+
 .box {
-    width: 500px;
-    height: 500px;
+    width: 100px;
+    height: 100px;
+    margin: 20% auto;
     background-color: coral;
-    -webkit-transition: 1s background-color ease;
-    -o-transition:  1s background-color ease;
-    transition: 1s background-color ease;
+    
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    
+    -webkit-transition: 1s all ease;
+    -o-transition:  1s all ease;
+    transition: 1s all ease;
 }
 
 .box:hover {
     background-color: #444444;
+    
+    -webkit-transform: rotate(270deg) scale(2, 2);
+    -ms-transform: rotate(270deg) scale(2, 2);
+    -o-transform: rotate(270deg) scale(2, 2);
+    transform: rotate(270deg) scale(2, 2);
 }

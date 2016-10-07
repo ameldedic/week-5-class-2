@@ -1,9 +1,17 @@
-/* -- PSEUDO ELEMENT ::after -- */
+/* -- CSS PSEUDO ELEMENTS ::before | ::after -- */
+/* -- CSS pseudo elements can be used to add the content to HTML file -- */
+
+
+/* -- https://developer.mozilla.org/en/docs/Web/CSS/::before -- */
 h1::before {
-    content: "This content is added from css - BEFORE - ";
+    content: "This content is added from CSS before hardcoded HTML content -> ::before";
     color: coral;
+    display: block;
 }
+
+/* -- https://developer.mozilla.org/en/docs/Web/CSS/::after -- */
 h1::after {
-    content: " - This content is added from css - AFTER";
+    content: "This content is added from CSS after hardcoded HTML content ->  ::after";
     color: cornflowerblue;
+    display: block;
 }
